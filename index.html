@@ -19,7 +19,7 @@
 <body>
   <!-- awal navbar besar -->
   <div class="d-none d-lg-block">
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top pt-0">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top pt-0">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
         aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,12 +48,20 @@
       </div>
     </nav>
     <!-- awal navbar2 -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" style="margin-top: 78px;">
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top" style="margin-top: 78px;">
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="nav navbar-nav flex-fill justify-content-center">
           <li class="nav-item"><a class="nav-link" href="Why_Nlec.html">WHY NLEC?</a></li>
           <li class="nav-item"><a class="nav-link" href="Program.html">PROGRAM</a></li>
-          <li class="nav-item"><a class="nav-link" href="Schedule.html">JADWAL</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              INFORMASI
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Nihongo_Gakkou.html" target="_blank">Nihongo Gakkou</a>
+              <a class="dropdown-item" href="Beasiswa.html" target="_blank">Beasiswa</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="Sensei_&_Fasilitas.html">SENSEI & FASILITAS</a>
           </li>
@@ -63,7 +71,7 @@
               aria-haspopup="true" aria-expanded="false">
               CABANG
             </a>
-            <div class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="https://www.nlec.co.id" target="_blank">NLEC JAKARTA</a>
               <a class="dropdown-item" href="https://nlecbandung.com/" target="_blank">NLEC BANDUNG</a>
           </li>
@@ -92,8 +100,15 @@
           <li class="nav-item">
             <a class="nav-link" href="Program.html"><i class="fas fa-pencil-ruler"></i> PROGRAM</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Schedule.html"><i class="fas fa-calendar-alt"></i> JADWAL</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Informasi
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Nihongo_Gakkou.html" target="_blank">Nihongo Gakkou</a>
+              <a class="dropdown-item" href="Beasiswa.html" target="_blank">Beasiswa</a>
+              <a class="dropdown-item" href="Karir_dengan_kami.html" target="_blank">NLEC BANDUNG</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Sensei_&_Fasilitas.html"><i class="fas fa-chalkboard-teacher"></i>
@@ -128,22 +143,84 @@
   </div>
   <!-- akhir navbar kecil -->
   <!-- Awal Jumbotron -->
-  <div class="jumbotron">
-    <h1 class="text-center" style="margin-top:150px; color:white; font-size: 150px; opacity: .8;">NLEC <br><span
-        style="font-size: 80px;">A
-        Better Way
-        to Study Japanese</span></h1>
+  <div class="d-none d-lg-block">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="jumbotron">
+            <h1 class="text-center" style="margin-top:150px; color:white; font-size: 150px; opacity: .8;">NLEC <br><span
+                style="font-size: 80px;">A
+                Better Way
+                to Study Japanese</span></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Promo1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/nlec3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
   <!-- akhir Jumbotron -->
+  <!-- Awal Jumbotron kecil -->
+  <div class="d-lg-none">
+    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="jumbotron">
+            <h1 class="text-center" style="margin-top:150px; color:white; font-size: 150px; opacity: .8;">NLEC <br><span
+                style="font-size: 80px;">A
+                Better Way
+                to Study Japanese</span></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Promo1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/nlec3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- akhir Jumbotron kecil -->
   <!-- awal visi nlec -->
   <h1 class="text-center">MISI NLEC</h1>
   <div class="container">
     <hr size=’10px’ color=’green’>
     <div class="row">
-      <div class="col-6">
+      <div class="col-xl-6">
         <img src="img/nlec-worldwide-tanpa-font-272x300.png" alt="">
       </div>
-      <div class="col-6 text-justify">
+      <div class="col-xl-6 text-justify">
         <P>NLEC adalah perusahaan multinasional yang berbasis di Jepang. Northern Lights hadir di Indonesia untuk
           menyediakan program belajar Bahasa Jepang yang bermutu bagi masyarakat Indonesia. Misi NLEC adalah membantu
           masyarakat Indonesia mencapai cita-cita mereka melalui pendidikan.</P>
@@ -177,7 +254,8 @@
     <nav>
       <div class="nav nav-pills ml-5 mb-3" id="nav-tab" role="tablist">
         <a class="nav-item nav-link active" id="nav-universitas-tab" data-toggle="tab" href="#nav-universitas"
-          role="tab" aria-controls="nav-universitas" aria-selected="true">Jepang Memiliki Banyak Universitas Terbaik Di
+          role="tab" aria-controls="nav-universitas" aria-selected="true">Jepang Memiliki Banyak
+          Universitas Terbaik Di
           Dunia</a>
         <a class="nav-item nav-link" id="nav-karir-tab" data-toggle="tab" href="#nav-karir" role="tab"
           aria-controls="nav-karir" aria-selected="false">Mendapatkan Peluang Karir Lebih Baik</a>
@@ -301,7 +379,6 @@
                   <div class="col-6 text-justify">
                     <p>Kelas percakapan (kaiwa) adalah program belajar Bahasa Jepang yang praktikal dan terstruktur dari
                       NLEC, dirancang khusus untuk siswa remaja sampai dewasa.
-
                       Sebagai siswa NLEC, Anda akan mengikuti salah satu dari 4 level kursus kami dari (Beginner, Basic,
                       Intermediate dan Advance). NLEC menyediakan level kemampuan Bahasa Jepang dari level paling dasar
                       sampai dengan level mahir. Anda akan semakin percaya diri setelah mempraktekan kemampuan berbahasa
@@ -363,7 +440,7 @@
                   </div>
                 </div>
                 <div class="text-center mt-3">
-                  <a type="button" href="https://www.nlecnihongo.com/" target="_blank"
+                  <a role="button" href="https://www.nlecnihongo.com/" target="_blank"
                     class="btn btn-outline-success">NLEC Nihongo</a>
                 </div>
               </div>
@@ -480,94 +557,192 @@
 
   <!-- akhir mula sensei -->
   <!-- awal carousel -->
-  <div class="container">
-    <h2 class="text-center judul-baru">OUR PARTNER</h2>
-    <hr size=’10px’ color=’green’>
-  </div>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="container">
-          <div class="row">
-            <div class="card" style="width: 14rem;">
-              <img src="img/logo-ana-resize.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/logo-mandiri-resize.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/mufg-png-mufg-mitsubishi-ufj-financial-group-5000-1024x241.png" class="card-img-top"
-                alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <div class=""
-                style="height: 50%; width: 50%; left: 50%; margin-right: -50%; position: absolute; margin: 0;">
-                <img src="img/Logo-ui-resizeimage.png" class="card-img-top" style="width: 130px; height: auto;"
-                  alt="...">
+  <div class="d-none d-lg-block pt-4">
+    <div class="container">
+      <h2 class="text-center judul-baru">OUR PARTNER</h2>
+      <hr size=’10px’ color=’green’>
+    </div>
+    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row text-center ">
+              <div class="col-3">
+                <a href="https://www.ana.co.jp/id/id/?cid=SEAgoogleindonesia201611502041&gclid=CjwKCAjwlovtBRBrEiwAG3XJ-xxFoTyEr9oI_oQgef8t0gtDL8QrC7snBgvp41D1tAQd-89FlsUgiBoCgM0QAvD_BwE#253879238857"
+                  target="_blank"><img src="img/logo-ana-resize.png" style="padding-top: 40px;" alt="" class=""></a>
+              </div>
+              <div class="col-2" style="padding-top: 10px;">
+                <a href="https://www.bankmandiri.co.id/en/home" target="_blank"><img src="img/logo-mandiri-resize.png"
+                    style="padding-top: 30px; height: 140px; width:170px;" class="respon" alt=""></a>
+              </div>
+              <div class="col-2 text-center">
+                <a href="https://www.ui.ac.id/" target="_blank"><img src="img/logo_ui1.png" class="responui" alt="">
+              </div></a>
+              <div class="col-2" style="padding-top: 80px;">
+                <a href="https://www.mufg.jp/english/index.html"><img
+                    src="img/mufg-png-mufg-mitsubishi-ufj-financial-group-5000-1024x241.png" alt="" class="respon"></a>
+              </div>
+              <div class="col-3">
+                <a href="http://www.perdania.co.id/" target="_blank"><img src="img/bank-resona.jpg"
+                    style="height: 170px; width:200px;" class="respon" alt=""></a>
               </div>
             </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/bank-resona.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row text-center ">
+              <div class="col-3">
+                <a href="http://eduplex.id/new/" target="_blank"><img src="img/eduplex.png" style="padding-top: 40px;"
+                    alt="" class=""></a>
+              </div>
+              <div class="col-2" style="padding-top: 10px;">
+                <a href="https://www.bankmandiri.co.id/en/home" target="_blank"><img src="img/gnb.png" class="respon"
+                    style="padding-top: 50px;" alt=""></a>
+              </div>
+              <div class="col-2 text-center">
+                <a href="https://telkomuniversity.ac.id/" target="_blank"><img
+                    src="img/kisspng-telkom-university-padjadjaran-university-logo-educ-go-to-image-page-5b64f4403c1310.7121508215333427842461.png"
+                    class="respon" alt="">
+              </div></a>
+              <div class="col-2" style="padding-top: 70px;">
+                <a href="https://www.abeam.com/id/en" target="_blank"><img src="img/ABeamConsulting.png" alt=""
+                    class="respon"></a>
+              </div>
+              <div class="col-3">
+                <a href="https://www.digitas.com/en-sg" target="_blank"><img src="img/digitas.png"
+                    style="height: 170px; width:200px;" class="respon" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row text-center ">
+              <div class="col-3">
+              </div>
+              <div class="col-2" style="padding-top: 10px;">
+                <a href="http://www.wagomu.id/" target="_blank"><img src="img/logo-wagomu.png" class="respon"
+                    style="padding-top: 50px;" alt=""></a>
+              </div>
+              <div class="col-2 text-center">
+                <a href="http://bahanainspirasimuda.com/about/" target="_blank"><img src="img/lpkbahana.jpg"
+                    class="respon" alt="">
+              </div></a>
+              <div class="col-2">
+                <a href="https://www.hhp.co.id/"><img src="img/hhp.png" alt="" class="respon"></a>
+              </div>
+              <div class="col-3">
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <div class="container">
-          <div class="row">
-            <div class="card" style="width: 14rem;">
-              <img src="img/logo-wagomu.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/hhp.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/eduplex.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/gnb.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/ABeamConsulting.png" class="card-img-top" alt="...">
-            </div>
-          </div>
-        </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <br>
+  <!-- akhir carousel -->
+  <!-- partner kecil -->
+  <div class="d-lg-none">
+    <div class="container">
+      <div class="sponsor">
+        <h2 class="text-center judul-baru">PARTNER KAMI</h2>
+        <hr size=’10px’ color=’green’>
       </div>
-      <div class="carousel-item">
-        <div class="container">
-          <div class="row">
-            <div class="card" style="width: 14rem;">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/digitas.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/lpkbahana.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
-              <img src="img/Logo-telkom-resizeimage.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card" style="width: 14rem;">
+      <div class="container">
+        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+          </ol>
+          <div class="container">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="http://eduplex.id/new/" target="_blank"><img src="img/eduplex.png" class="d-block w-100"
+                    style="position:relative;padding-top: 16%; padding-bottom: 15%;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.bankmandiri.co.id/en/home" target="_blank"><img
+                    src="img/Bank-Mandiri-Logo-Vector-Image.png" class="d-block"
+                    style="position:relative; margin-left:5%;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.ui.ac.id/" target="_blank"><img src="img/Logo-ui-resizeimage.png"
+                    class="d-block text-center" style="position:relative; margin-left:25%; padding-bottom: 2%;"
+                    alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://telkomuniversity.ac.id/" target="_blank"><img src="img/Logo-telkom-resizeimage.png"
+                    class="d-block w-100" style="position:relative;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.ana.co.jp/id/id/?cid=SEAgoogleindonesia201611502041&gclid=CjwKCAjwlovtBRBrEiwAG3XJ-xxFoTyEr9oI_oQgef8t0gtDL8QrC7snBgvp41D1tAQd-89FlsUgiBoCgM0QAvD_BwE#253879238857"
+                  target="_blank"><img src="img/800px-All_Nippon_Airways_Logo.svg_.png" height="200px"
+                    class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="http://www.perdania.co.id/" target="_blank"><img src="img/bank-resona.jpg"
+                    class="d-block w-100" style="position:relative;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="http://bahanainspirasimuda.com/about/" target="_blank"><img src="img/logo-lpk.jpg"
+                    class="d-block w-100" style="position:relative;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.digitas.com/en-sg" target="_blank"><img src="img/logo-digitas.png"
+                    class="d-block w-100" style="position:relative;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.abeam.com/id/en" target="_blank"><img src="img/ABeamConsulting.png"
+                    class="d-block w-100" style="position:relative; padding-top:70px; padding-bottom:70px;"
+                    alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://gnb.ac/" target="_blank"><img src="img/logo-gnb.png" class="d-block w-100"
+                    style="position:relative; padding-top:60px; padding-bottom:60px;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="http://www.wagomu.id/" target="_blank"><img src="img/logo-wagomu.png" class="d-block w-100"
+                    style="position:relative; padding-top:60px; padding-bottom:60px;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="http://www.wagomu.id/" target="_blank"><img src="img/hhp.png" class="d-block w-100"
+                    style="position:relative; padding-top:60px; padding-bottom:60px;" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="http://www.wagomu.id/" target="_blank"><img
+                    src="img/mufg-png-mufg-mitsubishi-ufj-financial-group-5000-1024x241.png" class="d-block w-100"
+                    style="position:relative; padding-top:60px; padding-bottom:60px;" alt="..."></a>
+              </div>
             </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-  <!-- akhir carousel -->
+  <!-- akhir partner kecil -->
   <!-- awal address besar-->
   <div class="container">
     <div class="d-none d-lg-block">
