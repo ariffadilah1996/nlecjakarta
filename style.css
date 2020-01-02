@@ -7,6 +7,28 @@ body {
   font-family: 'Montserrat Classic';
 } */
 
+ul li a#you {
+  color: black;
+  transition: .3s;
+}
+
+ul li a#you:hover {
+  color: red;
+  text-decoration: none;
+  transition: .3s;
+}
+
+ul li a#you1 {
+  color: black;
+  transition: .3s;
+}
+
+ul li a#you1:hover {
+  color: red;
+  text-decoration: none;
+  transition: .3s;
+}
+
 .jumbotron {
   background-image: url(img/tokyotowerv2.jpg);
   background-size: cover;
