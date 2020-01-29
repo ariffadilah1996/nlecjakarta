@@ -1,0 +1,535 @@
+body {
+  font-family: Open Sans;
+}
+
+/* 
+body {
+  font-family: 'Montserrat Classic';
+} */
+
+.call-me{
+  position: fixed;
+  right: 20px;
+  bottom:60px;
+  z-index: 999999;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+ul li a#you {
+  color: black;
+  transition: .3s;
+}
+
+ul li a#you:hover {
+  color: red;
+  text-decoration: none;
+  transition: .3s;
+}
+
+ul li a#you1 {
+  color: black;
+  transition: .3s;
+}
+
+ul li a#you1:hover {
+  color: red;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.jumbotron {
+  background-image: url(img/tokyotowerv2.jpg);
+  background-size: cover;
+  width: auto;
+  height: 800px;
+}
+
+.jumbotron-kecil {
+  background-image: url(img/tokyotowerv2.jpg);
+  background-size: cover;
+  width: auto;
+  height: 200px;
+}
+
+.hilang ul li {
+  list-style-type: none;
+  color: black;
+}
+
+ul.hilang li {
+  list-style-type: none;
+  color: black;
+}
+
+.container .mt-5 p.text-center {
+  font-size: 53px;
+  font-weight: bold;
+}
+
+.biru {
+  color: aqua;
+}
+
+.judul {
+  font-size: 53px;
+  font-weight: bold;
+}
+
+.judul-kecil {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.hijau-nlec {
+  color: rgb(124, 216, 89);
+}
+
+.orentua {
+  background-color: rgb(204, 109, 45);
+}
+
+.orenagaktua {
+  background-color: rgb(238, 132, 58);
+}
+
+.orentuacolor {
+  color: #FD7646;
+}
+
+.font-22px {
+  font-size: 22px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.orenagaktuaborder {
+  border: 10px solid rgb(238, 132, 58)
+}
+
+.orenmuda {
+  background-color: rgb(253, 185, 76);
+}
+
+.bg-hijau {
+  background-color: rgb(124, 216, 89);
+  width: 100%;
+  height: auto;
+}
+
+.bg-hijau-navbar{
+  background-color: rgb(124, 216, 89);
+}
+
+.merah-nlec {
+  color: rgb(207, 79, 102);
+}
+
+.table-merahnlec,
+.table-merahnlec>th,
+.table-merahnlec>td {
+  background-color: #FD7646;
+}
+
+.orennlec {
+  color: #FD7646
+}
+
+
+.table-orensedikitnlec,
+.table-orensedikitnlec>th,
+.table-orensedikitnlec>td {
+  background-color: #FFFAF7;
+}
+
+.table-orenagaknlec,
+.table-orenagaknlec>th,
+.table-orenagaknlec>td {
+  background-color: #FFECE5;
+}
+
+
+.table-merahnlec th,
+.table-merahnlec td,
+.table-merahnlec thead th,
+.table-merahnlec tbody+tbody {
+  border-color: #95999c;
+}
+
+
+.table-hijaunlec,
+.table-hijaunlec>th,
+.table-hijaunlec>td {
+  background-color: rgb(124, 216, 89);
+}
+
+.table-hijaunlec th,
+.table-hijaunlec td,
+.table-hijaunlec thead th,
+.table-hijaunlec tbody+tbody {
+  border-color: #95999c;
+}
+
+.putih {
+  color: white;
+}
+
+.transparan-hijau {
+  background-color: rgb(124, 216, 89);
+}
+
+.transparan-hitam {
+  background-color: black;
+}
+
+.container-kecil {
+  width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-kecil {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-kecil {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-kecil {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-kecil {
+    max-width: 1140px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box-hitam {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  margin-top: 50px;
+}
+
+ul li a#instagram1 {
+  color: black;
+  transition: 0.3s;
+}
+
+ul li a#instagram1:hover {
+  color: white;
+  text-decoration: none;
+  transition: .3s;
+}
+
+ul li a#instagram2:hover {
+  color: orange;
+  text-decoration: none;
+  transition: .3s;
+}
+
+ul li a#wa1 {
+  color: black;
+  transition: .3s;
+}
+
+ul li a#wa1:hover {
+  color: white;
+  text-decoration: none;
+  transition: .3s;
+}
+
+ul li a#wa2:hover {
+  color: #4CED69;
+  text-decoration: none;
+  transition: .3s;
+}
+
+ul li a#instagram2 {
+  color: black;
+}
+
+ul li a#wa2 {
+  color: black;
+}
+
+ul li.nav-item a.nav-link {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.address .col-6 ul li {
+  list-style-type: none;
+  color: black;
+}
+
+.tebal {
+  font-weight: bold;
+}
+
+.table-custom th,
+.table-custom td,
+.table-custom thead th,
+.table-custom tbody+tbody {
+  border-color: black;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+#rudr_instafeed {
+  list-style: none
+}
+
+#rudr_instafeedkecil {
+  list-style: none
+}
+
+#rudr_instafeed li {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin: 10px
+}
+
+#rudr_instafeedkecil li {
+  width: -10;
+  height: 400px;
+  margin: 0;
+}
+
+#rudr_instafeed li img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (min-width: 375px) {
+  .d-ssm-none {
+    display: none !important;
+  }
+
+  .d-ssm-inline {
+    display: inline !important;
+  }
+
+  .d-ssm-inline-block {
+    display: inline-block !important;
+  }
+
+  .d-ssm-block {
+    display: block !important;
+  }
+
+  .d-ssm-table {
+    display: table !important;
+  }
+
+  .d-ssm-table-row {
+    display: table-row !important;
+  }
+
+  .d-ssm-table-cell {
+    display: table-cell !important;
+  }
+
+  .d-ssm-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+
+  .d-ssm-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+.table-tengah {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.orenagaktua {
+  background-color: rgb(238, 132, 58);
+}
+
+.hilang-pisan {
+  list-style: none;
+}
+
+.pt-custom {
+  padding-top: -10px;
+}
+
+.border-table {
+  border: 1px solid black;
+}
+
+.ruang-border {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.gambar-fasilitas {
+  width: 350px;
+  height: 220px;
+}
+
+.judul-baru {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px solid gray;
+}
+
+.mt-150px {
+  margin-top: 150px;
+}
+
+.mt-100px {
+  margin-top: 100px;
+}
+
+.mt-50px {
+  margin-top: 50px;
+}
+
+.tulisan-gambar {
+  background-image: url(img/suasana5.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+.tulisan-gambar1 {
+  background-image: url(img/suasana5.jpg);
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.respon {
+  height: auto;
+  width: 100%;
+}
+
+.responui {
+  height: auto;
+  width: auto;
+}
+
+/* navbar */
+.navbar-custom {
+  background-color: #4CED69;
+  border-color: #E7E7E7;
+}
+
+/* Title */
+.navbar-custom .navbar-brand {
+  color: #777;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #5E5E5E;
+}
+
+/* Link */
+.navbar-custom .navbar-nav>li>a {
+  color: #777;
+}
+
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-custom .navbar-nav>li>a:focus {
+  color: #333;
+}
+
+.navbar-custom .navbar-nav>.active>a,
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus {
+  color: #555;
+  background-color: #E7E7E7;
+}
+
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a:focus {
+  color: #555;
+  background-color: #D5D5D5;
+}
+
+/* Caret */
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+  border-top-color: #777;
+  border-bottom-color: #777;
+}
+
+.navbar-custom .navbar-nav>.dropdown>a:hover .caret,
+.navbar-custom .navbar-nav>.dropdown>a:focus .caret {
+  border-top-color: #333;
+  border-bottom-color: #333;
+}
+
+.navbar-custom .navbar-nav>.open>a .caret,
+.navbar-custom .navbar-nav>.open>a:hover .caret,
+.navbar-custom .navbar-nav>.open>a:focus .caret {
+  border-top-color: #555;
+  border-bottom-color: #555;
+}
+
+/* Mobile version */
+.navbar-custom .navbar-toggle {
+  border-color: #DDD;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #DDD;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #CCC;
+}
+
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+  }
+
+  .navbar-custom .navbar-nav .open .dropdown-menu>li>a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #333;
+  }
+}
+
+.bg-nlec {
+  background-color: #4CED69 !important;
+}
+
+.wait {
+  transition: .3s;
+}
