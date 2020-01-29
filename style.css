@@ -7,6 +7,17 @@ body {
   font-family: 'Montserrat Classic';
 } */
 
+.call-me{
+  position: fixed;
+  right: 20px;
+  bottom:60px;
+  z-index: 999999;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
 ul li a#you {
   color: black;
   transition: .3s;
@@ -108,6 +119,10 @@ ul.hilang li {
   background-color: rgb(124, 216, 89);
   width: 100%;
   height: auto;
+}
+
+.bg-hijau-navbar{
+  background-color: rgb(124, 216, 89);
 }
 
 .merah-nlec {
